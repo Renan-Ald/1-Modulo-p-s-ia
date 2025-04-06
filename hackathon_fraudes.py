@@ -9,8 +9,8 @@ import pandas as pd
 from tabulate import tabulate
 
 # Leitura do CSV
-compras = pd.read_csv('avaliacao\public_servant_purchases_new.csv')
-
+#compras = pd.read_csv('avaliacao\public_servant_purchases_new.csv')
+compras = pd.read_csv('1-Modulo-p-s-ia\public_servant_purchases_new.csv')
 # Funções
 # Detecta combinações repetidas de funcionário e item (compras duplicadas)
 def detectar_compras_duplicadas(compras):
